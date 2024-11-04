@@ -1,0 +1,97 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.todo{
+    background-color: orange;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 15px 0px;
+    margin-top: 20px
+}
+.lists{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+ul{
+    width: 90%;
+    padding: 2px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.btns{
+    color: black;
+    font-size: 14px;
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+}
+.lists.completed {
+    background-color: lightgreen;
+  }
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+.homeTodo{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.homeTodo input{
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.newInput{
+    outline: none;
+}
+.homeTodo button{
+    border: 1px solid grey;
+    padding: 6px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+.homeTodo button:hover{
+    background-color: black;
+    color: white;
+    transition: all ease-out .4s;
+}
+.bttnFeatures{
+    display: flex;
+    gap: 30px;
+}
+.bttnFeatures button{
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+.bttnFeatures button:hover{
+    color: rgb(38, 38, 255);
+}

@@ -4,4 +4,5 @@ export interface Todos {
 export interface Todo {
   id: number;
   content: string;
+  complate:boolean;
 }
